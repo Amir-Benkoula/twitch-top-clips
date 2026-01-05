@@ -1,0 +1,7 @@
+moviepy
+numpy
+Pillow
+opencv-python
+pilmoji
+emoji==1.7.0
+requests

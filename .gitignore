@@ -1,0 +1,43 @@
+# OS & System
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend
+dist/
+build/
+.eslintcache
+
+# Backend & Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Project Specific
+api/downloads/
+temp/
+logs/
+
+# Whisper.cpp build artifacts (if any compiled locally)
+api/ai_engine/whisper.cpp/main
+api/ai_engine/whisper.cpp/quantize
+api/ai_engine/whisper.cpp/stream
+api/ai_engine/whisper.cpp/libwhisper.a
+
+
+api/src/.env
